@@ -46,3 +46,6 @@ tornado==6.5.2
 traitlets==5.14.3
 tzdata==2025.2
 wcwidth==0.2.14
+geopy==2.4.1
+folium==0.14.0
+shapely==2.2.0
