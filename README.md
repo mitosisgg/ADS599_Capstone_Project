@@ -17,6 +17,9 @@ ADS599_Capstone_Project/
 │   ├── san-diego-county-places.parquet
 │   ├── san-diego-county-spend-patterns.parquet
 │   └── san-diego-county-places-spend.parquet
+├── maps/                         # Example map outputs
+│   ├── encinitas_map_check.html
+|   ├── mcdonalds_2mile_communities.html
 └── README.md                     
 ```
 
