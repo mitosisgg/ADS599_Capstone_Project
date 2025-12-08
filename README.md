@@ -274,7 +274,7 @@ create_community_map(
 ## Output Files
 
 - `data/san-diego-county-places-spend.parquet`: Final joined dataset
-- `clustering_results.csv/parquet`: Clustering coefficient metrics
+- `clustering_results.parquet`: Clustering coefficient metrics (if exported)
 - `maps/*.html`: Interactive maps (community visualizations, recommendations)
 - `graphs/*.gexf`: Graph files for Gephi visualization (if exported)
 
