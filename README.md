@@ -248,11 +248,6 @@ See `requirements.txt` for complete dependency list.
 ### Example: Generate Partnership Recommendations
 
 ```python
-# Load the graph (from modeling.ipynb)
-import pickle
-with open('clustering_results.pkl', 'rb') as f:
-    graph_data = pickle.load(f)
-
 G = graph_data['graph']
 communities = graph_data['leiden_communities']
 
@@ -279,8 +274,8 @@ create_community_map(
 ## Output Files
 
 - `data/san-diego-county-places-spend.parquet`: Final joined dataset
-- `clustering_results.parquet`: Clustering coefficient metrics
-- `maps/*.html`: Interactive maps (community visualizations, recommendations)
+- `clustering_results.csv/parquet`: Clustering coefficient metrics
+- `*.html`: Interactive maps (community visualizations, recommendations)
 - `graphs/*.gexf`: Graph files for Gephi visualization (if exported)
 
 The notebooks in this repository provide the complete implementation and reproducible analysis supporting the research findings.
