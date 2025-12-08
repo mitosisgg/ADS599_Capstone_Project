@@ -1,26 +1,34 @@
-# Business Community Detection and Partnership Recommendations in San Diego County
+# Mapping the Market: Uncovering Brand Alliances from Consumer Cross-Shopping Networks
+
 
 ## Overview
 
 This capstone project analyzes customer cross-shopping patterns in San Diego County to identify business communities and generate partnership recommendations. Using network analysis and community detection algorithms, the project reveals latent relationships between businesses based on shared customer behavior, enabling data-driven strategic partnerships.
 
+## AI Usage
+
+We utilized AI (ChatGPT, Github Copilot) to help strategize how to model our business data as a graph.
+We also used AI to help structure this README file.
+Code completion and style formatting was also AI assisted.
+
+
 ## Project Structure
 
 ```
 ADS599_Capstone_Project/
-├── data-prep.ipynb              # Data acquisition and preprocessing
-├── exploratory_analysis.ipynb   # Exploratory data analysis and visualizations
-├── modeling.ipynb                # Network construction, community detection, and recommendations
-├── requirements.txt              # Python dependencies
-├── clustering_results.pkl       # Saved clustering results
+├── code/                         # Notebook directory
+|   ├── data-prep.ipynb              # Data acquisition and preprocessing
+|   ├── exploratory_analysis.ipynb   # Exploratory data analysis and visualizations
+|   └── modeling.ipynb               # Network construction, community detection, and recommendations
 ├── data/                         # Data directory (not in repo)
 │   ├── san-diego-county-places.parquet
 │   ├── san-diego-county-spend-patterns.parquet
 │   └── san-diego-county-places-spend.parquet
 ├── maps/                         # Example map outputs
 │   ├── encinitas_map_check.html
-|   ├── mcdonalds_2mile_communities.html
-└── README.md                     
+|   └── mcdonalds_2mile_communities.html
+|── README.md
+└── requirements.txt              # Python dependencies
 ```
 
 ## Data Sources
@@ -298,7 +306,6 @@ The notebooks in this repository provide the complete implementation and reprodu
 
 4. **Geographic Scope**: Limited to San Diego County; results may not generalize to other regions
 
-5. **Algorithm Selection**: Louvain vs. Leiden trade-offs between speed and quality may affect community granularity
 
 ## Future Work
 
@@ -308,13 +315,6 @@ The notebooks in this repository provide the complete implementation and reprodu
 4. **Validation**: Partner with businesses to validate recommendation effectiveness
 5. **Scalability**: Optimize algorithms for larger geographic regions or national analysis
 
-## Citation
-
-If you use this work in your research, please cite:
-
-```
-[Your Citation Here - Update with your research paper details]
-```
 
 ## License
 
@@ -328,5 +328,3 @@ For questions or collaboration opportunities, please contact:
 - **Course**: ADS-599 Capstone Project
 
 ---
-
-**Note**: This project is part of the Master of Science in Applied Data Science (MSADS) capstone requirement at the University of San Diego. The research paper provides comprehensive theoretical and analytical context for the implementation presented in these notebooks.
