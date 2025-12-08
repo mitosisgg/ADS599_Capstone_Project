@@ -1,0 +1,1577 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-11-24">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="name" type="string" />
+      <attribute id="1" title="category" type="string" />
+      <attribute id="2" title="num_customers" type="double" />
+      <attribute id="3" title="num_transactions" type="double" />
+      <attribute id="4" title="total_spend" type="double" />
+      <attribute id="5" title="latitude" type="double" />
+      <attribute id="6" title="longitude" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Double Take" label="Double Take">
+        <attvalues>
+          <attvalue for="0" value="Double Take" />
+          <attvalue for="1" value="Clothing Stores" />
+          <attvalue for="2" value="9.0" />
+          <attvalue for="3" value="11.0" />
+          <attvalue for="4" value="716.6" />
+          <attvalue for="5" value="33.160772" />
+          <attvalue for="6" value="-117.348466" />
+        </attvalues>
+      </node>
+      <node id="Fiesta Liquor" label="Fiesta Liquor">
+        <attvalues>
+          <attvalue for="0" value="Fiesta Liquor" />
+          <attvalue for="1" value="Beer, Wine, and Liquor Stores" />
+          <attvalue for="2" value="37.0" />
+          <attvalue for="3" value="57.0" />
+          <attvalue for="4" value="1585.56" />
+          <attvalue for="5" value="33.162391" />
+          <attvalue for="6" value="-117.35065" />
+        </attvalues>
+      </node>
+      <node id="Roosevelt Pizzeria" label="Roosevelt Pizzeria">
+        <attvalues>
+          <attvalue for="0" value="Roosevelt Pizzeria" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="3.0" />
+          <attvalue for="4" value="255.51" />
+          <attvalue for="5" value="33.159356" />
+          <attvalue for="6" value="-117.347242" />
+        </attvalues>
+      </node>
+      <node id="5.11 Tactical" label="5.11 Tactical">
+        <attvalues>
+          <attvalue for="0" value="5.11 Tactical" />
+          <attvalue for="1" value="Sporting Goods, Hobby, and Musical Instrument Stores" />
+          <attvalue for="2" value="9.0" />
+          <attvalue for="3" value="11.0" />
+          <attvalue for="4" value="599.09" />
+          <attvalue for="5" value="33.182677" />
+          <attvalue for="6" value="-117.32188" />
+        </attvalues>
+      </node>
+      <node id="Beach City Smoothies" label="Beach City Smoothies">
+        <attvalues>
+          <attvalue for="0" value="Beach City Smoothies" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="14.0" />
+          <attvalue for="3" value="18.0" />
+          <attvalue for="4" value="238.05" />
+          <attvalue for="5" value="33.160253" />
+          <attvalue for="6" value="-117.347954" />
+        </attvalues>
+      </node>
+      <node id="Carlsbad Village Music" label="Carlsbad Village Music">
+        <attvalues>
+          <attvalue for="0" value="Carlsbad Village Music" />
+          <attvalue for="1" value="Sporting Goods, Hobby, and Musical Instrument Stores" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="3.0" />
+          <attvalue for="4" value="78.4" />
+          <attvalue for="5" value="33.159519" />
+          <attvalue for="6" value="-117.348442" />
+        </attvalues>
+      </node>
+      <node id="Banter by Piercing Pagoda" label="Banter by Piercing Pagoda">
+        <attvalues>
+          <attvalue for="0" value="Banter by Piercing Pagoda" />
+          <attvalue for="1" value="Jewelry, Luggage, and Leather Goods Stores" />
+          <attvalue for="2" value="4.0" />
+          <attvalue for="3" value="4.0" />
+          <attvalue for="4" value="792.57" />
+          <attvalue for="5" value="33.178204" />
+          <attvalue for="6" value="-117.332466" />
+        </attvalues>
+      </node>
+      <node id="Natura Spa" label="Natura Spa">
+        <attvalues>
+          <attvalue for="0" value="Natura Spa" />
+          <attvalue for="1" value="Personal Care Services" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="2.0" />
+          <attvalue for="4" value="113.0" />
+          <attvalue for="5" value="33.190214" />
+          <attvalue for="6" value="-117.359339" />
+        </attvalues>
+      </node>
+      <node id="Blue Bowl Superfoods" label="Blue Bowl Superfoods">
+        <attvalues>
+          <attvalue for="0" value="Blue Bowl Superfoods" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="4.0" />
+          <attvalue for="4" value="63.32" />
+          <attvalue for="5" value="33.172828" />
+          <attvalue for="6" value="-117.358723" />
+        </attvalues>
+      </node>
+      <node id="Luv Threading Studio" label="Luv Threading Studio">
+        <attvalues>
+          <attvalue for="0" value="Luv Threading Studio" />
+          <attvalue for="1" value="Personal Care Services" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="3.0" />
+          <attvalue for="4" value="38.0" />
+          <attvalue for="5" value="33.186148" />
+          <attvalue for="6" value="-117.327226" />
+        </attvalues>
+      </node>
+      <node id="Beach Break Cafe" label="Beach Break Cafe">
+        <attvalues>
+          <attvalue for="0" value="Beach Break Cafe" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="65.0" />
+          <attvalue for="3" value="83.0" />
+          <attvalue for="4" value="5666.82" />
+          <attvalue for="5" value="33.175082" />
+          <attvalue for="6" value="-117.361827" />
+        </attvalues>
+      </node>
+      <node id="Target" label="Target">
+        <attvalues>
+          <attvalue for="0" value="Target" />
+          <attvalue for="1" value="General Merchandise Stores, including Warehouse Clubs and Supercenters" />
+          <attvalue for="2" value="598.0" />
+          <attvalue for="3" value="810.0" />
+          <attvalue for="4" value="43290.76" />
+          <attvalue for="5" value="33.183968" />
+          <attvalue for="6" value="-117.330287" />
+        </attvalues>
+      </node>
+      <node id="Ten Gu Ramen" label="Ten Gu Ramen">
+        <attvalues>
+          <attvalue for="0" value="Ten Gu Ramen" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="12.0" />
+          <attvalue for="3" value="14.0" />
+          <attvalue for="4" value="399.1" />
+          <attvalue for="5" value="33.18263" />
+          <attvalue for="6" value="-117.3409" />
+        </attvalues>
+      </node>
+      <node id="Corner Wine &amp; Spirits" label="Corner Wine &amp; Spirits">
+        <attvalues>
+          <attvalue for="0" value="Corner Wine &amp; Spirits" />
+          <attvalue for="1" value="Beer, Wine, and Liquor Stores" />
+          <attvalue for="2" value="15.0" />
+          <attvalue for="3" value="26.0" />
+          <attvalue for="4" value="565.41" />
+          <attvalue for="5" value="33.201497" />
+          <attvalue for="6" value="-117.343618" />
+        </attvalues>
+      </node>
+      <node id="Ross Stores" label="Ross Stores">
+        <attvalues>
+          <attvalue for="0" value="Ross Stores" />
+          <attvalue for="1" value="Department Stores" />
+          <attvalue for="2" value="1243.0" />
+          <attvalue for="3" value="1477.0" />
+          <attvalue for="4" value="92903.05" />
+          <attvalue for="5" value="33.182722" />
+          <attvalue for="6" value="-117.332333" />
+        </attvalues>
+      </node>
+      <node id="Humble Olive Oils" label="Humble Olive Oils">
+        <attvalues>
+          <attvalue for="0" value="Humble Olive Oils" />
+          <attvalue for="1" value="Specialty Food Stores" />
+          <attvalue for="2" value="11.0" />
+          <attvalue for="3" value="13.0" />
+          <attvalue for="4" value="478.42" />
+          <attvalue for="5" value="33.160499" />
+          <attvalue for="6" value="-117.349138" />
+        </attvalues>
+      </node>
+      <node id="Smoke Depot" label="Smoke Depot">
+        <attvalues>
+          <attvalue for="0" value="Smoke Depot" />
+          <attvalue for="1" value="Other Miscellaneous Store Retailers" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="3.0" />
+          <attvalue for="4" value="60.99" />
+          <attvalue for="5" value="33.189636" />
+          <attvalue for="6" value="-117.360843" />
+        </attvalues>
+      </node>
+      <node id="Tanner's Prime Burgers" label="Tanner's Prime Burgers">
+        <attvalues>
+          <attvalue for="0" value="Tanner's Prime Burgers" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="2.0" />
+          <attvalue for="4" value="106.07" />
+          <attvalue for="5" value="33.172604" />
+          <attvalue for="6" value="-117.35929" />
+        </attvalues>
+      </node>
+      <node id="Fire Mountain Market" label="Fire Mountain Market">
+        <attvalues>
+          <attvalue for="0" value="Fire Mountain Market" />
+          <attvalue for="1" value="Grocery Stores" />
+          <attvalue for="2" value="14.0" />
+          <attvalue for="3" value="20.0" />
+          <attvalue for="4" value="426.77" />
+          <attvalue for="5" value="33.194956" />
+          <attvalue for="6" value="-117.353464" />
+        </attvalues>
+      </node>
+      <node id="Happy Lemon" label="Happy Lemon">
+        <attvalues>
+          <attvalue for="0" value="Happy Lemon" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="19.0" />
+          <attvalue for="3" value="26.0" />
+          <attvalue for="4" value="326.66" />
+          <attvalue for="5" value="33.177637" />
+          <attvalue for="6" value="-117.330152" />
+        </attvalues>
+      </node>
+      <node id="Michaels Stores" label="Michaels Stores">
+        <attvalues>
+          <attvalue for="0" value="Michaels Stores" />
+          <attvalue for="1" value="Sporting Goods, Hobby, and Musical Instrument Stores" />
+          <attvalue for="2" value="87.0" />
+          <attvalue for="3" value="103.0" />
+          <attvalue for="4" value="3074.02" />
+          <attvalue for="5" value="33.182813" />
+          <attvalue for="6" value="-117.329279" />
+        </attvalues>
+      </node>
+      <node id="Connect Hearing" label="Connect Hearing">
+        <attvalues>
+          <attvalue for="0" value="Connect Hearing" />
+          <attvalue for="1" value="Health and Personal Care Stores" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="2.0" />
+          <attvalue for="4" value="50.0" />
+          <attvalue for="5" value="33.173252" />
+          <attvalue for="6" value="-117.322804" />
+        </attvalues>
+      </node>
+      <node id="Epic Wings N' Things" label="Epic Wings N' Things">
+        <attvalues>
+          <attvalue for="0" value="Epic Wings N' Things" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="16.0" />
+          <attvalue for="3" value="19.0" />
+          <attvalue for="4" value="464.15" />
+          <attvalue for="5" value="33.18272" />
+          <attvalue for="6" value="-117.332319" />
+        </attvalues>
+      </node>
+      <node id="Kalya's Body Jewelry" label="Kalya's Body Jewelry">
+        <attvalues>
+          <attvalue for="0" value="Kalya's Body Jewelry" />
+          <attvalue for="1" value="Jewelry, Luggage, and Leather Goods Stores" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="3.0" />
+          <attvalue for="4" value="52.68" />
+          <attvalue for="5" value="33.178129" />
+          <attvalue for="6" value="-117.331293" />
+        </attvalues>
+      </node>
+      <node id="That Pizza Place" label="That Pizza Place">
+        <attvalues>
+          <attvalue for="0" value="That Pizza Place" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="28.0" />
+          <attvalue for="3" value="34.0" />
+          <attvalue for="4" value="1725.88" />
+          <attvalue for="5" value="33.175974" />
+          <attvalue for="6" value="-117.324775" />
+        </attvalues>
+      </node>
+      <node id="Kwic Smog Center" label="Kwic Smog Center">
+        <attvalues>
+          <attvalue for="0" value="Kwic Smog Center" />
+          <attvalue for="1" value="Automotive Repair and Maintenance" />
+          <attvalue for="2" value="8.0" />
+          <attvalue for="3" value="9.0" />
+          <attvalue for="4" value="545.0" />
+          <attvalue for="5" value="33.178049" />
+          <attvalue for="6" value="-117.326189" />
+        </attvalues>
+      </node>
+      <node id="Gem Nails and Spa" label="Gem Nails and Spa">
+        <attvalues>
+          <attvalue for="0" value="Gem Nails and Spa" />
+          <attvalue for="1" value="Personal Care Services" />
+          <attvalue for="2" value="10.0" />
+          <attvalue for="3" value="12.0" />
+          <attvalue for="4" value="987.0" />
+          <attvalue for="5" value="33.184521" />
+          <attvalue for="6" value="-117.328012" />
+        </attvalues>
+      </node>
+      <node id="MOOYAH" label="MOOYAH">
+        <attvalues>
+          <attvalue for="0" value="MOOYAH" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="21.0" />
+          <attvalue for="3" value="28.0" />
+          <attvalue for="4" value="644.21" />
+          <attvalue for="5" value="33.179325" />
+          <attvalue for="6" value="-117.324884" />
+        </attvalues>
+      </node>
+      <node id="Joy Nails &amp; Spa" label="Joy Nails &amp; Spa">
+        <attvalues>
+          <attvalue for="0" value="Joy Nails &amp; Spa" />
+          <attvalue for="1" value="Personal Care Services" />
+          <attvalue for="2" value="13.0" />
+          <attvalue for="3" value="13.0" />
+          <attvalue for="4" value="882.0" />
+          <attvalue for="5" value="33.182811" />
+          <attvalue for="6" value="-117.33576" />
+        </attvalues>
+      </node>
+      <node id="West Coast Sourdough" label="West Coast Sourdough">
+        <attvalues>
+          <attvalue for="0" value="West Coast Sourdough" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="15.0" />
+          <attvalue for="3" value="17.0" />
+          <attvalue for="4" value="400.73" />
+          <attvalue for="5" value="33.204033" />
+          <attvalue for="6" value="-117.310325" />
+        </attvalues>
+      </node>
+      <node id="Estate Sale Warehouse" label="Estate Sale Warehouse">
+        <attvalues>
+          <attvalue for="0" value="Estate Sale Warehouse" />
+          <attvalue for="1" value="Furniture Stores" />
+          <attvalue for="2" value="10.0" />
+          <attvalue for="3" value="10.0" />
+          <attvalue for="4" value="523.99" />
+          <attvalue for="5" value="33.176076" />
+          <attvalue for="6" value="-117.363308" />
+        </attvalues>
+      </node>
+      <node id="El Camino Real Mall" label="El Camino Real Mall">
+        <attvalues>
+          <attvalue for="0" value="El Camino Real Mall" />
+          <attvalue for="1" value="Motion Picture and Video Industries" />
+          <attvalue for="2" value="5.0" />
+          <attvalue for="3" value="5.0" />
+          <attvalue for="4" value="260.85" />
+          <attvalue for="5" value="33.178288" />
+          <attvalue for="6" value="-117.330998" />
+        </attvalues>
+      </node>
+      <node id="American Cancer Society Discovery Shop" label="American Cancer Society Discovery Shop">
+        <attvalues>
+          <attvalue for="0" value="American Cancer Society Discovery Shop" />
+          <attvalue for="1" value="Used Merchandise Stores" />
+          <attvalue for="2" value="5.0" />
+          <attvalue for="3" value="5.0" />
+          <attvalue for="4" value="56.57" />
+          <attvalue for="5" value="33.184106" />
+          <attvalue for="6" value="-117.332273" />
+        </attvalues>
+      </node>
+      <node id="Diana Sandoval" label="Diana Sandoval">
+        <attvalues>
+          <attvalue for="0" value="Diana Sandoval" />
+          <attvalue for="1" value="Offices of Other Health Practitioners" />
+          <attvalue for="2" value="23.0" />
+          <attvalue for="3" value="26.0" />
+          <attvalue for="4" value="2675.76" />
+          <attvalue for="5" value="33.180901" />
+          <attvalue for="6" value="-117.310827" />
+        </attvalues>
+      </node>
+      <node id="Chili's Grill &amp; Bar" label="Chili's Grill &amp; Bar">
+        <attvalues>
+          <attvalue for="0" value="Chili's Grill &amp; Bar" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="79.0" />
+          <attvalue for="3" value="88.0" />
+          <attvalue for="4" value="5224.79" />
+          <attvalue for="5" value="33.182915" />
+          <attvalue for="6" value="-117.331045" />
+        </attvalues>
+      </node>
+      <node id="Cafe Rosarita" label="Cafe Rosarita">
+        <attvalues>
+          <attvalue for="0" value="Cafe Rosarita" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="7.0" />
+          <attvalue for="4" value="339.01" />
+          <attvalue for="5" value="33.193499" />
+          <attvalue for="6" value="-117.359392" />
+        </attvalues>
+      </node>
+      <node id="Style Nails &amp; Spa" label="Style Nails &amp; Spa">
+        <attvalues>
+          <attvalue for="0" value="Style Nails &amp; Spa" />
+          <attvalue for="1" value="Personal Care Services" />
+          <attvalue for="2" value="7.0" />
+          <attvalue for="3" value="9.0" />
+          <attvalue for="4" value="613.76" />
+          <attvalue for="5" value="33.182751" />
+          <attvalue for="6" value="-117.330197" />
+        </attvalues>
+      </node>
+      <node id="Boom Boom Brazil" label="Boom Boom Brazil">
+        <attvalues>
+          <attvalue for="0" value="Boom Boom Brazil" />
+          <attvalue for="1" value="Clothing Stores" />
+          <attvalue for="2" value="5.0" />
+          <attvalue for="3" value="5.0" />
+          <attvalue for="4" value="233.82" />
+          <attvalue for="5" value="33.174383" />
+          <attvalue for="6" value="-117.361166" />
+        </attvalues>
+      </node>
+      <node id="Art Cafe" label="Art Cafe">
+        <attvalues>
+          <attvalue for="0" value="Art Cafe" />
+          <attvalue for="1" value="Other Miscellaneous Store Retailers" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="3.0" />
+          <attvalue for="4" value="169.78" />
+          <attvalue for="5" value="33.178034" />
+          <attvalue for="6" value="-117.332008" />
+        </attvalues>
+      </node>
+      <node id="Giant K Market" label="Giant K Market">
+        <attvalues>
+          <attvalue for="0" value="Giant K Market" />
+          <attvalue for="1" value="Grocery Stores" />
+          <attvalue for="2" value="8.0" />
+          <attvalue for="3" value="16.0" />
+          <attvalue for="4" value="221.5" />
+          <attvalue for="5" value="33.196886" />
+          <attvalue for="6" value="-117.353352" />
+        </attvalues>
+      </node>
+      <node id="Revolution Roasters" label="Revolution Roasters">
+        <attvalues>
+          <attvalue for="0" value="Revolution Roasters" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="31.0" />
+          <attvalue for="3" value="41.0" />
+          <attvalue for="4" value="633.19" />
+          <attvalue for="5" value="33.174146" />
+          <attvalue for="6" value="-117.360935" />
+        </attvalues>
+      </node>
+      <node id="Primo Market" label="Primo Market">
+        <attvalues>
+          <attvalue for="0" value="Primo Market" />
+          <attvalue for="1" value="Grocery Stores" />
+          <attvalue for="2" value="85.0" />
+          <attvalue for="3" value="151.0" />
+          <attvalue for="4" value="3848.67" />
+          <attvalue for="5" value="33.179232" />
+          <attvalue for="6" value="-117.36402" />
+        </attvalues>
+      </node>
+      <node id="Easy To Grow Bulbs" label="Easy To Grow Bulbs">
+        <attvalues>
+          <attvalue for="0" value="Easy To Grow Bulbs" />
+          <attvalue for="1" value="Lawn and Garden Equipment and Supplies Stores" />
+          <attvalue for="2" value="16.0" />
+          <attvalue for="3" value="18.0" />
+          <attvalue for="4" value="997.33" />
+          <attvalue for="5" value="33.199842" />
+          <attvalue for="6" value="-117.344313" />
+        </attvalues>
+      </node>
+      <node id="Plaza South Cleaners" label="Plaza South Cleaners">
+        <attvalues>
+          <attvalue for="0" value="Plaza South Cleaners" />
+          <attvalue for="1" value="Drycleaning and Laundry Services" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="3.0" />
+          <attvalue for="4" value="126.35" />
+          <attvalue for="5" value="33.176227" />
+          <attvalue for="6" value="-117.324751" />
+        </attvalues>
+      </node>
+      <node id="Hunter Steakhouse" label="Hunter Steakhouse">
+        <attvalues>
+          <attvalue for="0" value="Hunter Steakhouse" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="30.0" />
+          <attvalue for="3" value="30.0" />
+          <attvalue for="4" value="2038.02" />
+          <attvalue for="5" value="33.175592" />
+          <attvalue for="6" value="-117.352708" />
+        </attvalues>
+      </node>
+      <node id="Icing" label="Icing">
+        <attvalues>
+          <attvalue for="0" value="Icing" />
+          <attvalue for="1" value="Clothing Stores" />
+          <attvalue for="2" value="6.0" />
+          <attvalue for="3" value="6.0" />
+          <attvalue for="4" value="100.13" />
+          <attvalue for="5" value="33.178028" />
+          <attvalue for="6" value="-117.331382" />
+        </attvalues>
+      </node>
+      <node id="Bella salon" label="Bella salon">
+        <attvalues>
+          <attvalue for="0" value="Bella salon" />
+          <attvalue for="1" value="Personal Care Services" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="3.0" />
+          <attvalue for="4" value="414.0" />
+          <attvalue for="5" value="33.193451" />
+          <attvalue for="6" value="-117.35786" />
+        </attvalues>
+      </node>
+      <node id="Pacific Sun Properties" label="Pacific Sun Properties">
+        <attvalues>
+          <attvalue for="0" value="Pacific Sun Properties" />
+          <attvalue for="1" value="Offices of Real Estate Agents and Brokers" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="3.0" />
+          <attvalue for="4" value="288.4" />
+          <attvalue for="5" value="33.174987" />
+          <attvalue for="6" value="-117.362986" />
+        </attvalues>
+      </node>
+      <node id="Bound Coffee Company" label="Bound Coffee Company">
+        <attvalues>
+          <attvalue for="0" value="Bound Coffee Company" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="17.0" />
+          <attvalue for="3" value="20.0" />
+          <attvalue for="4" value="362.54" />
+          <attvalue for="5" value="33.170309" />
+          <attvalue for="6" value="-117.357613" />
+        </attvalues>
+      </node>
+      <node id="Paradise Pizza" label="Paradise Pizza">
+        <attvalues>
+          <attvalue for="0" value="Paradise Pizza" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="4.0" />
+          <attvalue for="3" value="4.0" />
+          <attvalue for="4" value="122.76" />
+          <attvalue for="5" value="33.164452" />
+          <attvalue for="6" value="-117.352082" />
+        </attvalues>
+      </node>
+      <node id="Tilly's" label="Tilly's">
+        <attvalues>
+          <attvalue for="0" value="Tilly's" />
+          <attvalue for="1" value="Clothing Stores" />
+          <attvalue for="2" value="25.0" />
+          <attvalue for="3" value="28.0" />
+          <attvalue for="4" value="2347.85" />
+          <attvalue for="5" value="33.182765" />
+          <attvalue for="6" value="-117.330059" />
+        </attvalues>
+      </node>
+      <node id="Penske Truck Rental" label="Penske Truck Rental">
+        <attvalues>
+          <attvalue for="0" value="Penske Truck Rental" />
+          <attvalue for="1" value="Automotive Equipment Rental and Leasing" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="2.0" />
+          <attvalue for="4" value="3642.41" />
+          <attvalue for="5" value="33.198612" />
+          <attvalue for="6" value="-117.348172" />
+        </attvalues>
+      </node>
+      <node id="The Hairstyling Company" label="The Hairstyling Company">
+        <attvalues>
+          <attvalue for="0" value="The Hairstyling Company" />
+          <attvalue for="1" value="Personal Care Services" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="2.0" />
+          <attvalue for="4" value="54.0" />
+          <attvalue for="5" value="33.177122" />
+          <attvalue for="6" value="-117.339037" />
+        </attvalues>
+      </node>
+      <node id="Ms. Potato" label="Ms. Potato">
+        <attvalues>
+          <attvalue for="0" value="Ms. Potato" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="8.0" />
+          <attvalue for="3" value="8.0" />
+          <attvalue for="4" value="166.18" />
+          <attvalue for="5" value="33.1736" />
+          <attvalue for="6" value="-117.354587" />
+        </attvalues>
+      </node>
+      <node id="DAISO" label="DAISO">
+        <attvalues>
+          <attvalue for="0" value="DAISO" />
+          <attvalue for="1" value="General Merchandise Stores, including Warehouse Clubs and Supercenters" />
+          <attvalue for="2" value="42.0" />
+          <attvalue for="3" value="46.0" />
+          <attvalue for="4" value="892.6" />
+          <attvalue for="5" value="33.182673" />
+          <attvalue for="6" value="-117.33444" />
+        </attvalues>
+      </node>
+      <node id="Cream of the Crop" label="Cream of the Crop">
+        <attvalues>
+          <attvalue for="0" value="Cream of the Crop" />
+          <attvalue for="1" value="Specialty Food Stores" />
+          <attvalue for="2" value="22.0" />
+          <attvalue for="3" value="33.0" />
+          <attvalue for="4" value="1328.47" />
+          <attvalue for="5" value="33.171586" />
+          <attvalue for="6" value="-117.35939" />
+        </attvalues>
+      </node>
+      <node id="Scandia Motel" label="Scandia Motel">
+        <attvalues>
+          <attvalue for="0" value="Scandia Motel" />
+          <attvalue for="1" value="Traveler Accommodation" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="3.0" />
+          <attvalue for="4" value="432.8" />
+          <attvalue for="5" value="33.16324" />
+          <attvalue for="6" value="-117.354168" />
+        </attvalues>
+      </node>
+      <node id="Hollister" label="Hollister">
+        <attvalues>
+          <attvalue for="0" value="Hollister" />
+          <attvalue for="1" value="Clothing Stores" />
+          <attvalue for="2" value="43.0" />
+          <attvalue for="3" value="46.0" />
+          <attvalue for="4" value="2094.76" />
+          <attvalue for="5" value="33.178351" />
+          <attvalue for="6" value="-117.332178" />
+        </attvalues>
+      </node>
+      <node id="Lofty Coffee" label="Lofty Coffee">
+        <attvalues>
+          <attvalue for="0" value="Lofty Coffee" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="107.0" />
+          <attvalue for="3" value="164.0" />
+          <attvalue for="4" value="3248.06" />
+          <attvalue for="5" value="33.161768" />
+          <attvalue for="6" value="-117.350196" />
+        </attvalues>
+      </node>
+      <node id="Frazier Farms Market" label="Frazier Farms Market">
+        <attvalues>
+          <attvalue for="0" value="Frazier Farms Market" />
+          <attvalue for="1" value="Grocery Stores" />
+          <attvalue for="2" value="176.0" />
+          <attvalue for="3" value="324.0" />
+          <attvalue for="4" value="13648.83" />
+          <attvalue for="5" value="33.193815" />
+          <attvalue for="6" value="-117.358687" />
+        </attvalues>
+      </node>
+      <node id="The Perfect Cut" label="The Perfect Cut">
+        <attvalues>
+          <attvalue for="0" value="The Perfect Cut" />
+          <attvalue for="1" value="Personal Care Services" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="3.0" />
+          <attvalue for="4" value="130.0" />
+          <attvalue for="5" value="33.178089" />
+          <attvalue for="6" value="-117.325693" />
+        </attvalues>
+      </node>
+      <node id="H&amp;M" label="H&amp;M">
+        <attvalues>
+          <attvalue for="0" value="H&amp;M" />
+          <attvalue for="1" value="Clothing Stores" />
+          <attvalue for="2" value="39.0" />
+          <attvalue for="3" value="40.0" />
+          <attvalue for="4" value="2015.76" />
+          <attvalue for="5" value="33.177882" />
+          <attvalue for="6" value="-117.330956" />
+        </attvalues>
+      </node>
+      <node id="Nordstrom Rack" label="Nordstrom Rack">
+        <attvalues>
+          <attvalue for="0" value="Nordstrom Rack" />
+          <attvalue for="1" value="Clothing Stores" />
+          <attvalue for="2" value="69.0" />
+          <attvalue for="3" value="73.0" />
+          <attvalue for="4" value="7365.19" />
+          <attvalue for="5" value="33.182304" />
+          <attvalue for="6" value="-117.341722" />
+        </attvalues>
+      </node>
+      <node id="Oceanside Liquor Store" label="Oceanside Liquor Store">
+        <attvalues>
+          <attvalue for="0" value="Oceanside Liquor Store" />
+          <attvalue for="1" value="Beer, Wine, and Liquor Stores" />
+          <attvalue for="2" value="4.0" />
+          <attvalue for="3" value="4.0" />
+          <attvalue for="4" value="149.5" />
+          <attvalue for="5" value="33.194193" />
+          <attvalue for="6" value="-117.356205" />
+        </attvalues>
+      </node>
+      <node id="Blackmarket Bakery - Oceanside" label="Blackmarket Bakery - Oceanside">
+        <attvalues>
+          <attvalue for="0" value="Blackmarket Bakery - Oceanside" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="16.0" />
+          <attvalue for="3" value="16.0" />
+          <attvalue for="4" value="300.29" />
+          <attvalue for="5" value="33.172604" />
+          <attvalue for="6" value="-117.359272" />
+        </attvalues>
+      </node>
+      <node id="Hennessey's Tavern" label="Hennessey's Tavern">
+        <attvalues>
+          <attvalue for="0" value="Hennessey's Tavern" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="25.0" />
+          <attvalue for="3" value="30.0" />
+          <attvalue for="4" value="1472.14" />
+          <attvalue for="5" value="33.162182" />
+          <attvalue for="6" value="-117.349581" />
+        </attvalues>
+      </node>
+      <node id="Budget Rent A Car" label="Budget Rent A Car">
+        <attvalues>
+          <attvalue for="0" value="Budget Rent A Car" />
+          <attvalue for="1" value="Automotive Equipment Rental and Leasing" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="3.0" />
+          <attvalue for="4" value="784.87" />
+          <attvalue for="5" value="33.190669" />
+          <attvalue for="6" value="-117.35964" />
+        </attvalues>
+      </node>
+      <node id="Ooh La La" label="Ooh La La">
+        <attvalues>
+          <attvalue for="0" value="Ooh La La" />
+          <attvalue for="1" value="Clothing Stores" />
+          <attvalue for="2" value="4.0" />
+          <attvalue for="3" value="4.0" />
+          <attvalue for="4" value="886.55" />
+          <attvalue for="5" value="33.160077" />
+          <attvalue for="6" value="-117.348802" />
+        </attvalues>
+      </node>
+      <node id="Torrid" label="Torrid">
+        <attvalues>
+          <attvalue for="0" value="Torrid" />
+          <attvalue for="1" value="Clothing Stores" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="3.0" />
+          <attvalue for="4" value="286.55" />
+          <attvalue for="5" value="33.181933" />
+          <attvalue for="6" value="-117.330008" />
+        </attvalues>
+      </node>
+      <node id="Stella" label="Stella">
+        <attvalues>
+          <attvalue for="0" value="Stella" />
+          <attvalue for="1" value="Clothing Stores" />
+          <attvalue for="2" value="4.0" />
+          <attvalue for="3" value="4.0" />
+          <attvalue for="4" value="112.63" />
+          <attvalue for="5" value="33.160207" />
+          <attvalue for="6" value="-117.347986" />
+        </attvalues>
+      </node>
+      <node id="Sweet Cheeks Beauty Bar" label="Sweet Cheeks Beauty Bar">
+        <attvalues>
+          <attvalue for="0" value="Sweet Cheeks Beauty Bar" />
+          <attvalue for="1" value="Personal Care Services" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="2.0" />
+          <attvalue for="4" value="35.02" />
+          <attvalue for="5" value="33.161146" />
+          <attvalue for="6" value="-117.349315" />
+        </attvalues>
+      </node>
+      <node id="Alphagraphics" label="Alphagraphics">
+        <attvalues>
+          <attvalue for="0" value="Alphagraphics" />
+          <attvalue for="1" value="Printing and Related Support Activities" />
+          <attvalue for="2" value="17.0" />
+          <attvalue for="3" value="18.0" />
+          <attvalue for="4" value="329.04" />
+          <attvalue for="5" value="33.193937" />
+          <attvalue for="6" value="-117.358502" />
+        </attvalues>
+      </node>
+      <node id="One Good Massage" label="One Good Massage">
+        <attvalues>
+          <attvalue for="0" value="One Good Massage" />
+          <attvalue for="1" value="Personal Care Services" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="2.0" />
+          <attvalue for="4" value="220.0" />
+          <attvalue for="5" value="33.162508" />
+          <attvalue for="6" value="-117.347146" />
+        </attvalues>
+      </node>
+      <node id="Goat Hill Park" label="Goat Hill Park">
+        <attvalues>
+          <attvalue for="0" value="Goat Hill Park" />
+          <attvalue for="1" value="Museums, Historical Sites, and Similar Institutions" />
+          <attvalue for="2" value="45.0" />
+          <attvalue for="3" value="77.0" />
+          <attvalue for="4" value="2420.91" />
+          <attvalue for="5" value="33.195471" />
+          <attvalue for="6" value="-117.360081" />
+        </attvalues>
+      </node>
+      <node id="Packard Dental" label="Packard Dental">
+        <attvalues>
+          <attvalue for="0" value="Packard Dental" />
+          <attvalue for="1" value="Offices of Dentists" />
+          <attvalue for="2" value="4.0" />
+          <attvalue for="3" value="5.0" />
+          <attvalue for="4" value="393.8" />
+          <attvalue for="5" value="33.165074" />
+          <attvalue for="6" value="-117.338782" />
+        </attvalues>
+      </node>
+      <node id="IHOP" label="IHOP">
+        <attvalues>
+          <attvalue for="0" value="IHOP" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="34.0" />
+          <attvalue for="3" value="35.0" />
+          <attvalue for="4" value="1918.11" />
+          <attvalue for="5" value="33.192621" />
+          <attvalue for="6" value="-117.358856" />
+        </attvalues>
+      </node>
+      <node id="Via Vai Cucina Italiana" label="Via Vai Cucina Italiana">
+        <attvalues>
+          <attvalue for="0" value="Via Vai Cucina Italiana" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="6.0" />
+          <attvalue for="3" value="7.0" />
+          <attvalue for="4" value="901.87" />
+          <attvalue for="5" value="33.160389" />
+          <attvalue for="6" value="-117.349717" />
+        </attvalues>
+      </node>
+      <node id="Professional Nails Salon" label="Professional Nails Salon">
+        <attvalues>
+          <attvalue for="0" value="Professional Nails Salon" />
+          <attvalue for="1" value="Personal Care Services" />
+          <attvalue for="2" value="4.0" />
+          <attvalue for="3" value="5.0" />
+          <attvalue for="4" value="433.0" />
+          <attvalue for="5" value="33.178102" />
+          <attvalue for="6" value="-117.325241" />
+        </attvalues>
+      </node>
+      <node id="Aranelle" label="Aranelle">
+        <attvalues>
+          <attvalue for="0" value="Aranelle" />
+          <attvalue for="1" value="Jewelry, Luggage, and Leather Goods Stores" />
+          <attvalue for="2" value="9.0" />
+          <attvalue for="3" value="9.0" />
+          <attvalue for="4" value="1160.89" />
+          <attvalue for="5" value="33.160408" />
+          <attvalue for="6" value="-117.348981" />
+        </attvalues>
+      </node>
+      <node id="Yard House" label="Yard House">
+        <attvalues>
+          <attvalue for="0" value="Yard House" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="78.0" />
+          <attvalue for="3" value="97.0" />
+          <attvalue for="4" value="6842.63" />
+          <attvalue for="5" value="33.177839" />
+          <attvalue for="6" value="-117.329741" />
+        </attvalues>
+      </node>
+      <node id="Garden State Bagels" label="Garden State Bagels">
+        <attvalues>
+          <attvalue for="0" value="Garden State Bagels" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="22.0" />
+          <attvalue for="3" value="28.0" />
+          <attvalue for="4" value="633.1" />
+          <attvalue for="5" value="33.16101" />
+          <attvalue for="6" value="-117.345903" />
+        </attvalues>
+      </node>
+      <node id="Lourdes Mexican Food" label="Lourdes Mexican Food">
+        <attvalues>
+          <attvalue for="0" value="Lourdes Mexican Food" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="12.0" />
+          <attvalue for="3" value="13.0" />
+          <attvalue for="4" value="386.93" />
+          <attvalue for="5" value="33.162811" />
+          <attvalue for="6" value="-117.343588" />
+        </attvalues>
+      </node>
+      <node id="Pacific Coast Counseling" label="Pacific Coast Counseling">
+        <attvalues>
+          <attvalue for="0" value="Pacific Coast Counseling" />
+          <attvalue for="1" value="Offices of Other Health Practitioners" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="2.0" />
+          <attvalue for="4" value="141.78" />
+          <attvalue for="5" value="33.189733" />
+          <attvalue for="6" value="-117.328599" />
+        </attvalues>
+      </node>
+      <node id="Smile Nails &amp; Spa" label="Smile Nails &amp; Spa">
+        <attvalues>
+          <attvalue for="0" value="Smile Nails &amp; Spa" />
+          <attvalue for="1" value="Personal Care Services" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="2.0" />
+          <attvalue for="4" value="166.0" />
+          <attvalue for="5" value="33.189939" />
+          <attvalue for="6" value="-117.359394" />
+        </attvalues>
+      </node>
+      <node id="FYE" label="FYE">
+        <attvalues>
+          <attvalue for="0" value="FYE" />
+          <attvalue for="1" value="General Merchandise Stores, including Warehouse Clubs and Supercenters" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="3.0" />
+          <attvalue for="4" value="80.52" />
+          <attvalue for="5" value="33.178418" />
+          <attvalue for="6" value="-117.333053" />
+        </attvalues>
+      </node>
+      <node id="Surf Ride" label="Surf Ride">
+        <attvalues>
+          <attvalue for="0" value="Surf Ride" />
+          <attvalue for="1" value="Sporting Goods, Hobby, and Musical Instrument Stores" />
+          <attvalue for="2" value="28.0" />
+          <attvalue for="3" value="32.0" />
+          <attvalue for="4" value="2495.57" />
+          <attvalue for="5" value="33.173062" />
+          <attvalue for="6" value="-117.360689" />
+        </attvalues>
+      </node>
+      <node id="Vigilucci's Cucina Italiana" label="Vigilucci's Cucina Italiana">
+        <attvalues>
+          <attvalue for="0" value="Vigilucci's Cucina Italiana" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="3.0" />
+          <attvalue for="4" value="331.31" />
+          <attvalue for="5" value="33.160184" />
+          <attvalue for="6" value="-117.349484" />
+        </attvalues>
+      </node>
+      <node id="LIDS" label="LIDS">
+        <attvalues>
+          <attvalue for="0" value="LIDS" />
+          <attvalue for="1" value="Clothing Stores" />
+          <attvalue for="2" value="5.0" />
+          <attvalue for="3" value="5.0" />
+          <attvalue for="4" value="230.36" />
+          <attvalue for="5" value="33.178162" />
+          <attvalue for="6" value="-117.330586" />
+        </attvalues>
+      </node>
+      <node id="Manuel Sandoval Jr" label="Manuel Sandoval Jr">
+        <attvalues>
+          <attvalue for="0" value="Manuel Sandoval Jr" />
+          <attvalue for="1" value="Offices of Physicians" />
+          <attvalue for="2" value="21.0" />
+          <attvalue for="3" value="24.0" />
+          <attvalue for="4" value="2215.34" />
+          <attvalue for="5" value="33.175418" />
+          <attvalue for="6" value="-117.363197" />
+        </attvalues>
+      </node>
+      <node id="Carlsbad Village" label="Carlsbad Village">
+        <attvalues>
+          <attvalue for="0" value="Carlsbad Village" />
+          <attvalue for="1" value="Public Administration" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="6.0" />
+          <attvalue for="4" value="430.46" />
+          <attvalue for="5" value="33.160977" />
+          <attvalue for="6" value="-117.349391" />
+        </attvalues>
+      </node>
+      <node id="Mantra Karuna" label="Mantra Karuna">
+        <attvalues>
+          <attvalue for="0" value="Mantra Karuna" />
+          <attvalue for="1" value="Personal Care Services" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="2.0" />
+          <attvalue for="4" value="284.45" />
+          <attvalue for="5" value="33.159817" />
+          <attvalue for="6" value="-117.346272" />
+        </attvalues>
+      </node>
+      <node id="Coast Compounding Pharmacy" label="Coast Compounding Pharmacy">
+        <attvalues>
+          <attvalue for="0" value="Coast Compounding Pharmacy" />
+          <attvalue for="1" value="Health and Personal Care Stores" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="3.0" />
+          <attvalue for="4" value="157.5" />
+          <attvalue for="5" value="33.173992" />
+          <attvalue for="6" value="-117.360876" />
+        </attvalues>
+      </node>
+      <node id="BKK Thai Kitchen" label="BKK Thai Kitchen">
+        <attvalues>
+          <attvalue for="0" value="BKK Thai Kitchen" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="3.0" />
+          <attvalue for="4" value="179.92" />
+          <attvalue for="5" value="33.178099" />
+          <attvalue for="6" value="-117.33998" />
+        </attvalues>
+      </node>
+      <node id="Supreme Sports Nutrition" label="Supreme Sports Nutrition">
+        <attvalues>
+          <attvalue for="0" value="Supreme Sports Nutrition" />
+          <attvalue for="1" value="Drugs and Druggists' Sundries Merchant Wholesalers" />
+          <attvalue for="2" value="4.0" />
+          <attvalue for="3" value="8.0" />
+          <attvalue for="4" value="640.93" />
+          <attvalue for="5" value="33.18598" />
+          <attvalue for="6" value="-117.327258" />
+        </attvalues>
+      </node>
+      <node id="Five Star Smog" label="Five Star Smog">
+        <attvalues>
+          <attvalue for="0" value="Five Star Smog" />
+          <attvalue for="1" value="Automotive Repair and Maintenance" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="2.0" />
+          <attvalue for="4" value="208.5" />
+          <attvalue for="5" value="33.200728" />
+          <attvalue for="6" value="-117.343489" />
+        </attvalues>
+      </node>
+      <node id="Mystical Dragon" label="Mystical Dragon">
+        <attvalues>
+          <attvalue for="0" value="Mystical Dragon" />
+          <attvalue for="1" value="Office Supplies, Stationery, and Gift Stores" />
+          <attvalue for="2" value="7.0" />
+          <attvalue for="3" value="7.0" />
+          <attvalue for="4" value="247.58" />
+          <attvalue for="5" value="33.161045" />
+          <attvalue for="6" value="-117.349597" />
+        </attvalues>
+      </node>
+      <node id="Cafe Topes" label="Cafe Topes">
+        <attvalues>
+          <attvalue for="0" value="Cafe Topes" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="36.0" />
+          <attvalue for="3" value="40.0" />
+          <attvalue for="4" value="1994.11" />
+          <attvalue for="5" value="33.15912" />
+          <attvalue for="6" value="-117.347103" />
+        </attvalues>
+      </node>
+      <node id="Teri Cafe" label="Teri Cafe">
+        <attvalues>
+          <attvalue for="0" value="Teri Cafe" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="6.0" />
+          <attvalue for="3" value="6.0" />
+          <attvalue for="4" value="220.06" />
+          <attvalue for="5" value="33.1852" />
+          <attvalue for="6" value="-117.329385" />
+        </attvalues>
+      </node>
+      <node id="Buffalo Wild Wings" label="Buffalo Wild Wings">
+        <attvalues>
+          <attvalue for="0" value="Buffalo Wild Wings" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="65.0" />
+          <attvalue for="3" value="71.0" />
+          <attvalue for="4" value="3715.54" />
+          <attvalue for="5" value="33.181809" />
+          <attvalue for="6" value="-117.329282" />
+        </attvalues>
+      </node>
+      <node id="MDRN Photography" label="MDRN Photography">
+        <attvalues>
+          <attvalue for="0" value="MDRN Photography" />
+          <attvalue for="1" value="Other Professional, Scientific, and Technical Services" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="2.0" />
+          <attvalue for="4" value="161.62" />
+          <attvalue for="5" value="33.187234" />
+          <attvalue for="6" value="-117.328735" />
+        </attvalues>
+      </node>
+      <node id="The Taco Stand" label="The Taco Stand">
+        <attvalues>
+          <attvalue for="0" value="The Taco Stand" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="34.0" />
+          <attvalue for="3" value="42.0" />
+          <attvalue for="4" value="1343.39" />
+          <attvalue for="5" value="33.17621" />
+          <attvalue for="6" value="-117.362605" />
+        </attvalues>
+      </node>
+      <node id="Vitalia Natural Medicine" label="Vitalia Natural Medicine">
+        <attvalues>
+          <attvalue for="0" value="Vitalia Natural Medicine" />
+          <attvalue for="1" value="Offices of Other Health Practitioners" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="4.0" />
+          <attvalue for="4" value="808.68" />
+          <attvalue for="5" value="33.172749" />
+          <attvalue for="6" value="-117.360417" />
+        </attvalues>
+      </node>
+      <node id="Petco" label="Petco">
+        <attvalues>
+          <attvalue for="0" value="Petco" />
+          <attvalue for="1" value="Other Miscellaneous Store Retailers" />
+          <attvalue for="2" value="43.0" />
+          <attvalue for="3" value="64.0" />
+          <attvalue for="4" value="4087.94" />
+          <attvalue for="5" value="33.182651" />
+          <attvalue for="6" value="-117.345023" />
+        </attvalues>
+      </node>
+      <node id="Froglanders Crepes &amp; Yogurt" label="Froglanders Crepes &amp; Yogurt">
+        <attvalues>
+          <attvalue for="0" value="Froglanders Crepes &amp; Yogurt" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="11.0" />
+          <attvalue for="3" value="14.0" />
+          <attvalue for="4" value="201.63" />
+          <attvalue for="5" value="33.159836" />
+          <attvalue for="6" value="-117.348675" />
+        </attvalues>
+      </node>
+      <node id="Journeys 0509" label="Journeys 0509">
+        <attvalues>
+          <attvalue for="0" value="Journeys 0509" />
+          <attvalue for="1" value="Shoe Stores" />
+          <attvalue for="2" value="41.0" />
+          <attvalue for="3" value="44.0" />
+          <attvalue for="4" value="5466.11" />
+          <attvalue for="5" value="33.178408" />
+          <attvalue for="6" value="-117.330205" />
+        </attvalues>
+      </node>
+      <node id="American Eagle &amp; Aerie - Shoppes At Carlsbad" label="American Eagle &amp; Aerie - Shoppes At Carlsbad">
+        <attvalues>
+          <attvalue for="0" value="American Eagle &amp; Aerie - Shoppes At Carlsbad" />
+          <attvalue for="1" value="Clothing Stores" />
+          <attvalue for="2" value="38.0" />
+          <attvalue for="3" value="41.0" />
+          <attvalue for="4" value="2016.63" />
+          <attvalue for="5" value="33.177947" />
+          <attvalue for="6" value="-117.329969" />
+        </attvalues>
+      </node>
+      <node id="Come On Over Cafe" label="Come On Over Cafe">
+        <attvalues>
+          <attvalue for="0" value="Come On Over Cafe" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="4.0" />
+          <attvalue for="3" value="5.0" />
+          <attvalue for="4" value="148.47" />
+          <attvalue for="5" value="33.199222" />
+          <attvalue for="6" value="-117.346455" />
+        </attvalues>
+      </node>
+      <node id="Gentle Dental" label="Gentle Dental">
+        <attvalues>
+          <attvalue for="0" value="Gentle Dental" />
+          <attvalue for="1" value="Offices of Dentists" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="3.0" />
+          <attvalue for="4" value="5200.0" />
+          <attvalue for="5" value="33.17626" />
+          <attvalue for="6" value="-117.324748" />
+        </attvalues>
+      </node>
+      <node id="Julian Bakery" label="Julian Bakery">
+        <attvalues>
+          <attvalue for="0" value="Julian Bakery" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="2.0" />
+          <attvalue for="4" value="84.96" />
+          <attvalue for="5" value="33.200508" />
+          <attvalue for="6" value="-117.337678" />
+        </attvalues>
+      </node>
+      <node id="Super Donuts" label="Super Donuts">
+        <attvalues>
+          <attvalue for="0" value="Super Donuts" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="28.0" />
+          <attvalue for="3" value="32.0" />
+          <attvalue for="4" value="419.39" />
+          <attvalue for="5" value="33.161366" />
+          <attvalue for="6" value="-117.3488" />
+        </attvalues>
+      </node>
+      <node id="Vallarta Express" label="Vallarta Express">
+        <attvalues>
+          <attvalue for="0" value="Vallarta Express" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="17.0" />
+          <attvalue for="3" value="21.0" />
+          <attvalue for="4" value="555.59" />
+          <attvalue for="5" value="33.162525" />
+          <attvalue for="6" value="-117.344801" />
+        </attvalues>
+      </node>
+      <node id="Grand Avenue Bar &amp; Grill" label="Grand Avenue Bar &amp; Grill">
+        <attvalues>
+          <attvalue for="0" value="Grand Avenue Bar &amp; Grill" />
+          <attvalue for="1" value="Drinking Places (Alcoholic Beverages)" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="2.0" />
+          <attvalue for="4" value="30.92" />
+          <attvalue for="5" value="33.162308" />
+          <attvalue for="6" value="-117.347218" />
+        </attvalues>
+      </node>
+      <node id="Dancin Soul Boutique" label="Dancin Soul Boutique">
+        <attvalues>
+          <attvalue for="0" value="Dancin Soul Boutique" />
+          <attvalue for="1" value="Sporting Goods, Hobby, and Musical Instrument Stores" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="2.0" />
+          <attvalue for="4" value="89.44" />
+          <attvalue for="5" value="33.159912" />
+          <attvalue for="6" value="-117.348425" />
+        </attvalues>
+      </node>
+      <node id="The Plot" label="The Plot">
+        <attvalues>
+          <attvalue for="0" value="The Plot" />
+          <attvalue for="1" value="Traveler Accommodation" />
+          <attvalue for="2" value="5.0" />
+          <attvalue for="3" value="5.0" />
+          <attvalue for="4" value="341.51" />
+          <attvalue for="5" value="33.175777" />
+          <attvalue for="6" value="-117.362942" />
+        </attvalues>
+      </node>
+      <node id="Spirito's Italian Diner" label="Spirito's Italian Diner">
+        <attvalues>
+          <attvalue for="0" value="Spirito's Italian Diner" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="11.0" />
+          <attvalue for="3" value="15.0" />
+          <attvalue for="4" value="805.38" />
+          <attvalue for="5" value="33.180216" />
+          <attvalue for="6" value="-117.325008" />
+        </attvalues>
+      </node>
+      <node id="North County Spa" label="North County Spa">
+        <attvalues>
+          <attvalue for="0" value="North County Spa" />
+          <attvalue for="1" value="Personal Care Services" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="2.0" />
+          <attvalue for="4" value="174.0" />
+          <attvalue for="5" value="33.176958" />
+          <attvalue for="6" value="-117.337577" />
+        </attvalues>
+      </node>
+      <node id="Oceanside Florist Inc" label="Oceanside Florist Inc">
+        <attvalues>
+          <attvalue for="0" value="Oceanside Florist Inc" />
+          <attvalue for="1" value="Florists" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="3.0" />
+          <attvalue for="4" value="258.75" />
+          <attvalue for="5" value="33.172762" />
+          <attvalue for="6" value="-117.360437" />
+        </attvalues>
+      </node>
+      <node id="Royal Nails &amp; Spa" label="Royal Nails &amp; Spa">
+        <attvalues>
+          <attvalue for="0" value="Royal Nails &amp; Spa" />
+          <attvalue for="1" value="Personal Care Services" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="3.0" />
+          <attvalue for="4" value="296.35" />
+          <attvalue for="5" value="33.184034" />
+          <attvalue for="6" value="-117.332768" />
+        </attvalues>
+      </node>
+      <node id="SoCal Bike" label="SoCal Bike">
+        <attvalues>
+          <attvalue for="0" value="SoCal Bike" />
+          <attvalue for="1" value="Sporting Goods, Hobby, and Musical Instrument Stores" />
+          <attvalue for="2" value="8.0" />
+          <attvalue for="3" value="8.0" />
+          <attvalue for="4" value="1373.68" />
+          <attvalue for="5" value="33.171266" />
+          <attvalue for="6" value="-117.358505" />
+        </attvalues>
+      </node>
+      <node id="Hill Street Donut House" label="Hill Street Donut House">
+        <attvalues>
+          <attvalue for="0" value="Hill Street Donut House" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="15.0" />
+          <attvalue for="3" value="20.0" />
+          <attvalue for="4" value="253.18" />
+          <attvalue for="5" value="33.172965" />
+          <attvalue for="6" value="-117.36008" />
+        </attvalues>
+      </node>
+      <node id="Lotus Den Hair Studio" label="Lotus Den Hair Studio">
+        <attvalues>
+          <attvalue for="0" value="Lotus Den Hair Studio" />
+          <attvalue for="1" value="Personal Care Services" />
+          <attvalue for="2" value="6.0" />
+          <attvalue for="3" value="8.0" />
+          <attvalue for="4" value="955.4" />
+          <attvalue for="5" value="33.172618" />
+          <attvalue for="6" value="-117.3602" />
+        </attvalues>
+      </node>
+      <node id="Once Upon a Child" label="Once Upon a Child">
+        <attvalues>
+          <attvalue for="0" value="Once Upon a Child" />
+          <attvalue for="1" value="Used Merchandise Stores" />
+          <attvalue for="2" value="13.0" />
+          <attvalue for="3" value="13.0" />
+          <attvalue for="4" value="827.91" />
+          <attvalue for="5" value="33.182745" />
+          <attvalue for="6" value="-117.335489" />
+        </attvalues>
+      </node>
+      <node id="Escapology Escape Rooms" label="Escapology Escape Rooms">
+        <attvalues>
+          <attvalue for="0" value="Escapology Escape Rooms" />
+          <attvalue for="1" value="Other Amusement and Recreation Industries" />
+          <attvalue for="2" value="4.0" />
+          <attvalue for="3" value="5.0" />
+          <attvalue for="4" value="539.89" />
+          <attvalue for="5" value="33.178222" />
+          <attvalue for="6" value="-117.332021" />
+        </attvalues>
+      </node>
+      <node id="Oceanside Moose Lodge" label="Oceanside Moose Lodge">
+        <attvalues>
+          <attvalue for="0" value="Oceanside Moose Lodge" />
+          <attvalue for="1" value="Civic and Social Organizations" />
+          <attvalue for="2" value="4.0" />
+          <attvalue for="3" value="4.0" />
+          <attvalue for="4" value="377.08" />
+          <attvalue for="5" value="33.171255" />
+          <attvalue for="6" value="-117.359237" />
+        </attvalues>
+      </node>
+      <node id="Village Optometry" label="Village Optometry">
+        <attvalues>
+          <attvalue for="0" value="Village Optometry" />
+          <attvalue for="1" value="Offices of Other Health Practitioners" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="2.0" />
+          <attvalue for="4" value="610.96" />
+          <attvalue for="5" value="33.161793" />
+          <attvalue for="6" value="-117.347122" />
+        </attvalues>
+      </node>
+      <node id="Dave &amp; Buster's" label="Dave &amp; Buster's">
+        <attvalues>
+          <attvalue for="0" value="Dave &amp; Buster's" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="90.0" />
+          <attvalue for="3" value="124.0" />
+          <attvalue for="4" value="6227.12" />
+          <attvalue for="5" value="33.178471" />
+          <attvalue for="6" value="-117.329411" />
+        </attvalues>
+      </node>
+      <node id="Mina Shoes" label="Mina Shoes">
+        <attvalues>
+          <attvalue for="0" value="Mina Shoes" />
+          <attvalue for="1" value="Shoe Stores" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="2.0" />
+          <attvalue for="4" value="95.29" />
+          <attvalue for="5" value="33.178035" />
+          <attvalue for="6" value="-117.332324" />
+        </attvalues>
+      </node>
+      <node id="Coolest Shoes in California" label="Coolest Shoes in California">
+        <attvalues>
+          <attvalue for="0" value="Coolest Shoes in California" />
+          <attvalue for="1" value="Shoe Stores" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="2.0" />
+          <attvalue for="4" value="211.2" />
+          <attvalue for="5" value="33.159921" />
+          <attvalue for="6" value="-117.348717" />
+        </attvalues>
+      </node>
+      <node id="US Army Oceanside" label="US Army Oceanside">
+        <attvalues>
+          <attvalue for="0" value="US Army Oceanside" />
+          <attvalue for="1" value="Executive, Legislative, and Other General Government Support" />
+          <attvalue for="2" value="4.0" />
+          <attvalue for="3" value="5.0" />
+          <attvalue for="4" value="128.01" />
+          <attvalue for="5" value="33.185798" />
+          <attvalue for="6" value="-117.327279" />
+        </attvalues>
+      </node>
+      <node id="Courtyard San Diego Oceanside" label="Courtyard San Diego Oceanside">
+        <attvalues>
+          <attvalue for="0" value="Courtyard San Diego Oceanside" />
+          <attvalue for="1" value="Traveler Accommodation" />
+          <attvalue for="2" value="23.0" />
+          <attvalue for="3" value="33.0" />
+          <attvalue for="4" value="4953.69" />
+          <attvalue for="5" value="33.206635" />
+          <attvalue for="6" value="-117.31092" />
+        </attvalues>
+      </node>
+      <node id="Quik Wok - Oceanside" label="Quik Wok - Oceanside">
+        <attvalues>
+          <attvalue for="0" value="Quik Wok - Oceanside" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="5.0" />
+          <attvalue for="3" value="5.0" />
+          <attvalue for="4" value="198.69" />
+          <attvalue for="5" value="33.183241" />
+          <attvalue for="6" value="-117.341463" />
+        </attvalues>
+      </node>
+      <node id="Wicked Poke" label="Wicked Poke">
+        <attvalues>
+          <attvalue for="0" value="Wicked Poke" />
+          <attvalue for="1" value="Restaurants and Other Eating Places" />
+          <attvalue for="2" value="8.0" />
+          <attvalue for="3" value="9.0" />
+          <attvalue for="4" value="211.58" />
+          <attvalue for="5" value="33.18274" />
+          <attvalue for="6" value="-117.335624" />
+        </attvalues>
+      </node>
+      <node id="Happiness Nails &amp; Spa" label="Happiness Nails &amp; Spa">
+        <attvalues>
+          <attvalue for="0" value="Happiness Nails &amp; Spa" />
+          <attvalue for="1" value="Personal Care Services" />
+          <attvalue for="2" value="16.0" />
+          <attvalue for="3" value="17.0" />
+          <attvalue for="4" value="1427.79" />
+          <attvalue for="5" value="33.18279" />
+          <attvalue for="6" value="-117.341825" />
+        </attvalues>
+      </node>
+      <node id="Charlotte Russe" label="Charlotte Russe">
+        <attvalues>
+          <attvalue for="0" value="Charlotte Russe" />
+          <attvalue for="1" value="Clothing Stores" />
+          <attvalue for="2" value="63.0" />
+          <attvalue for="3" value="64.0" />
+          <attvalue for="4" value="2192.13" />
+          <attvalue for="5" value="33.178346" />
+          <attvalue for="6" value="-117.331867" />
+        </attvalues>
+      </node>
+      <node id="West Oceanside Submarina" label="West Oceanside Submarina">
+        <attvalues>
+          <attvalue for="0" value="West Oceanside Submarina" />
+          <attvalue for="1" value="Specialty Food Stores" />
+          <attvalue for="2" value="4.0" />
+          <attvalue for="3" value="4.0" />
+          <attvalue for="4" value="73.94" />
+          <attvalue for="5" value="33.182534" />
+          <attvalue for="6" value="-117.340874" />
+        </attvalues>
+      </node>
+      <node id="Texas Wine &amp; Spirits" label="Texas Wine &amp; Spirits">
+        <attvalues>
+          <attvalue for="0" value="Texas Wine &amp; Spirits" />
+          <attvalue for="1" value="Beer, Wine, and Liquor Stores" />
+          <attvalue for="2" value="16.0" />
+          <attvalue for="3" value="21.0" />
+          <attvalue for="4" value="570.6" />
+          <attvalue for="5" value="33.162102" />
+          <attvalue for="6" value="-117.34385" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Beach City Smoothies" target="Blue Bowl Superfoods" id="0" weight="0.08" />
+      <edge source="Ten Gu Ramen" target="Yard House" id="1" weight="0.09" />
+      <edge source="Ten Gu Ramen" target="Buffalo Wild Wings" id="2" weight="0.09" />
+      <edge source="Epic Wings N' Things" target="The Taco Stand" id="3" weight="0.13" />
+      <edge source="That Pizza Place" target="IHOP" id="4" weight="0.04" />
+      <edge source="That Pizza Place" target="Yard House" id="5" weight="0.11" />
+      <edge source="That Pizza Place" target="Buffalo Wild Wings" id="6" weight="0.08" />
+      <edge source="West Coast Sourdough" target="Chili's Grill &amp; Bar" id="7" weight="0.14" />
+      <edge source="West Coast Sourdough" target="Yard House" id="8" weight="0.07" />
+      <edge source="Chili's Grill &amp; Bar" target="IHOP" id="9" weight="0.07" />
+      <edge source="Chili's Grill &amp; Bar" target="Buffalo Wild Wings" id="10" weight="0.12" />
+      <edge source="Chili's Grill &amp; Bar" target="Dave &amp; Buster's" id="11" weight="0.06" />
+      <edge source="Chili's Grill &amp; Bar" target="Yard House" id="12" weight="0.06" />
+      <edge source="Revolution Roasters" target="Blue Bowl Superfoods" id="13" weight="0.04" />
+      <edge source="Hunter Steakhouse" target="Dave &amp; Buster's" id="14" weight="0.04" />
+      <edge source="Hunter Steakhouse" target="Yard House" id="15" weight="0.07" />
+      <edge source="Hunter Steakhouse" target="Buffalo Wild Wings" id="16" weight="0.07" />
+      <edge source="Tilly's" target="Hollister" id="17" weight="0.16" />
+      <edge source="Tilly's" target="Nordstrom Rack" id="18" weight="0.12" />
+      <edge source="Tilly's" target="H&amp;M" id="19" weight="0.04" />
+      <edge source="Hollister" target="H&amp;M" id="20" weight="0.2" />
+      <edge source="Hollister" target="Nordstrom Rack" id="21" weight="0.03" />
+      <edge source="Hollister" target="Tilly's" id="22" weight="0.1" />
+      <edge source="H&amp;M" target="Hollister" id="23" weight="0.03" />
+      <edge source="H&amp;M" target="Tilly's" id="24" weight="0.03" />
+      <edge source="H&amp;M" target="Nordstrom Rack" id="25" weight="0.11" />
+      <edge source="Nordstrom Rack" target="Tilly's" id="26" weight="0.02" />
+      <edge source="Nordstrom Rack" target="H&amp;M" id="27" weight="0.03" />
+      <edge source="Nordstrom Rack" target="Hollister" id="28" weight="0.05" />
+      <edge source="Blackmarket Bakery - Oceanside" target="The Taco Stand" id="29" weight="0.07" />
+      <edge source="Hennessey's Tavern" target="Chili's Grill &amp; Bar" id="30" weight="0.04" />
+      <edge source="Hennessey's Tavern" target="Buffalo Wild Wings" id="31" weight="0.04" />
+      <edge source="IHOP" target="Yard House" id="32" weight="0.06" />
+      <edge source="IHOP" target="Dave &amp; Buster's" id="33" weight="0.03" />
+      <edge source="IHOP" target="Buffalo Wild Wings" id="34" weight="0.03" />
+      <edge source="IHOP" target="Chili's Grill &amp; Bar" id="35" weight="0.18" />
+      <edge source="Yard House" target="Dave &amp; Buster's" id="36" weight="0.04" />
+      <edge source="Yard House" target="Chili's Grill &amp; Bar" id="37" weight="0.09" />
+      <edge source="Yard House" target="Buffalo Wild Wings" id="38" weight="0.07" />
+      <edge source="Lourdes Mexican Food" target="Chili's Grill &amp; Bar" id="39" weight="0.25" />
+      <edge source="Lourdes Mexican Food" target="Buffalo Wild Wings" id="40" weight="0.17" />
+      <edge source="Lourdes Mexican Food" target="Dave &amp; Buster's" id="41" weight="0.09" />
+      <edge source="Teri Cafe" target="Yard House" id="42" weight="0.17" />
+      <edge source="Buffalo Wild Wings" target="Chili's Grill &amp; Bar" id="43" weight="0.07" />
+      <edge source="Buffalo Wild Wings" target="Dave &amp; Buster's" id="44" weight="0.07" />
+      <edge source="Buffalo Wild Wings" target="IHOP" id="45" weight="0.04" />
+      <edge source="Buffalo Wild Wings" target="Yard House" id="46" weight="0.05" />
+      <edge source="American Eagle &amp; Aerie - Shoppes At Carlsbad" target="Hollister" id="47" weight="0.29" />
+      <edge source="American Eagle &amp; Aerie - Shoppes At Carlsbad" target="Tilly's" id="48" weight="0.03" />
+      <edge source="American Eagle &amp; Aerie - Shoppes At Carlsbad" target="Nordstrom Rack" id="49" weight="0.08" />
+      <edge source="American Eagle &amp; Aerie - Shoppes At Carlsbad" target="H&amp;M" id="50" weight="0.06" />
+      <edge source="Hill Street Donut House" target="Blue Bowl Superfoods" id="51" weight="0.07" />
+      <edge source="Dave &amp; Buster's" target="IHOP" id="52" weight="0.04" />
+      <edge source="Dave &amp; Buster's" target="Chili's Grill &amp; Bar" id="53" weight="0.1" />
+      <edge source="Dave &amp; Buster's" target="Yard House" id="54" weight="0.05" />
+      <edge source="Dave &amp; Buster's" target="Buffalo Wild Wings" id="55" weight="0.08" />
+      <edge source="Quik Wok - Oceanside" target="IHOP" id="56" weight="0.4" />
+      <edge source="Quik Wok - Oceanside" target="Chili's Grill &amp; Bar" id="57" weight="0.2" />
+      <edge source="Quik Wok - Oceanside" target="Buffalo Wild Wings" id="58" weight="0.2" />
+      <edge source="Wicked Poke" target="Chili's Grill &amp; Bar" id="59" weight="0.38" />
+    </edges>
+  </graph>
+</gexf>
