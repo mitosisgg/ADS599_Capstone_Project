@@ -279,9 +279,8 @@ create_community_map(
 ## Output Files
 
 - `data/san-diego-county-places-spend.parquet`: Final joined dataset
-- `clustering_results.pkl`: Saved graph and community detection results
-- `clustering_results.csv/parquet`: Clustering coefficient metrics
-- `*.html`: Interactive maps (community visualizations, recommendations)
+- `clustering_results.parquet`: Clustering coefficient metrics
+- `maps/*.html`: Interactive maps (community visualizations, recommendations)
 - `graphs/*.gexf`: Graph files for Gephi visualization (if exported)
 
 The notebooks in this repository provide the complete implementation and reproducible analysis supporting the research findings.
